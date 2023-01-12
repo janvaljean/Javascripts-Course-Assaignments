@@ -1,4 +1,5 @@
-// if you enter false ,program ask you to enter new note
+// if you enter false ,program ask you to enter  anew note
+// Assaignment 1
 while (true) {
 let yourNote = +prompt('Please enter your note:');
 if (yourNote <= 25) {

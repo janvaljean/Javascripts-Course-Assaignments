@@ -16,3 +16,7 @@ if (option == 1) {
     alert("the temperature in Celsius is " + celsius)
 
 }
+else {
+
+    alert("please enter a valid option")
+}
