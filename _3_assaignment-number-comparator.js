@@ -17,4 +17,9 @@ console.log('summe of numbers: ', sum);
 console.log('multiple of numbers: ', multiple);
 console.log('maximum number:', max);
 console.log('minumum number:', min);
+alert('summe of numbers: ', sum);
+alert('multiple of numbers: ', multiple);
+alert('maximum number:', max);
+alert('minumum number:', min);
+
 
