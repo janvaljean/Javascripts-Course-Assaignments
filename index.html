@@ -21,15 +21,42 @@
             <div class="row">
                 <div class="col-lg-2 col-sm-2">
                     <h4 >First Part</h4>
-                    <a class="btn btn-warning" href="./index-1.html">_1_assaignment-noteCalculator</a>
+                    <a class="btn btn-warning"  type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" href="./index-1.html">_1_assaignment-noteCalculator</a>
                     <a class="btn btn-primary" href="./index-2.html">_2_assaignment-monthRotationNumber</a>
                     <a class="btn btn-success" href="./index-3.html">_3_assaignment-number-comparator</a>
-                    <a class="btn btn-danger" href="./index-4.html">_4_assaignment-noteCalculator</a>
+                    <a class="btn btn-danger" href="./index-4.html">_4_assaignment-even-odd-finder</a>
                     <a class="btn btn-dark" href="./index-5.html">_5_assaignment-monthRotationNumber</a>
-                    <a class="btn btn-outline-danger" href="./index-6.html">_6_assaignment-number-comparator</a>
+                    <a class="btn btn-outline-danger" href="./index-6.html">_6_assaignment-averageWithQ</a>
                     <a class="btn btn-outline-dark" href="./index-7.html">_7_assaignment-noteCalculator</a>
-                    <a class="btn btn-light" href="./index-8.html">_8_assaignment-monthRotationNumber</a>
+                    <a class="btn btn-light" href="./index-8.html">_8_assaignment-leapYear</a>
                 </div>
+                <div style="min-height: 120px;">
+                    <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                        <div class="card card-body" style="width: 600px;">
+                            <pre>
+        // if you enter false ,program ask you to enter anew note
+        // Assaignment 1
+        while (true) {
+        let yourNote = +prompt('Please enter your note:');
+        if (yourNote <= 25) { console.log("yourNote is FF"); 
+            alert("yourNote is FF"); 
+            break; } 
+         else if (25< yourNote & yourNote <= 45) 
+            { console.log("yourNote is DD"); 
+            alert("yourNote is DD"); break; }
+         else if (45< yourNote & yourNote <=65) {
+            console.log("yourNote is CC"); alert("yourNote is CC"); break; }
+         else if (65< yourNote & yourNote <=75) {
+            console.log("yourNote is BB"); alert("yourNote is BB"); break; }
+         else if (75< yourNote & yourNote <=90) {
+            console.log("yourNote is BA"); alert("yourNote is BA"); break; }
+         else if (90< yourNote & yourNote <=100) {
+            console.log("yourNote is AA"); alert("yourNote is AA"); break; }
+         else{ alert("Your note is out of range or false");
+            alert("enter a valid note"); }}
+                        </pre>
+                        </div>
+                       
   </header>
   <main>
 
