@@ -6,3 +6,6 @@ let wagesIncrease = wages.filter(wage => wage < 4000).map(wage => wage * 1.5);
 
 console.log(wagesIncrease);
 
+console.log(wages.filter(wage => wage > 4000).map(wage => wage * 1.25));
+
+console.log(wages);
